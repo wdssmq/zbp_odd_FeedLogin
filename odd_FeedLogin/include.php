@@ -50,7 +50,11 @@ function odd_FeedLogin_SetToken(&$post, $name = "Url")
   $token = odd_FeedLogin_Hash();
   if ($name === "Url") {
     $GLOBALS['hooks']['Filter_Plugin_Post_Url']['odd_FeedLogin_SetToken'] = PLUGIN_EXITSIGNAL_RETURN;
-    $u = new UrlRule($zbp->GetPostType_UrlRule($post->Type));
+    if ($zbp->version < 172800) {
+      $u = new UrlRule($zbp->GetPostType_UrlRule($post->Type));
+    } else {
+      $u = new UrlRule($zbp->GetPostType($post->Type, 'single_urlrule'));
+    }
     $u->Rules['{%id%}'] = $post->ID;
     if ($post->Alias) {
       $u->Rules['{%alias%}'] = $post->Alias;
@@ -92,7 +96,7 @@ function odd_FeedLogin_Check()
   return $pass;
 }
 /**
- * 
+ *
  * @param string $ret 留空 或 hash
  * @return string 用于拼接的网址参数 或 用于验证的hash值本身
  */
