@@ -80,7 +80,7 @@
   <p>GitHub：<a target="_blank" href="https://github.com/wdssmq" title="GitHub">https://github.com/wdssmq</a></p>
   <p>GreasyFork：<a target="_blank" href="https://greasyfork.org/zh-CN/users/6865-wdssmq" title="GreasyFork">https://greasyfork.org/zh-CN/users/6865-wdssmq</a></p>
   <hr>
-  <p>爱发电：<a target="_blank" href="https://afdian.net/@wdssmq" title="爱发电">https://afdian.net/@wdssmq</a></p>
+  <p>爱发电：<a target="_blank" href="https://afdian.com/@wdssmq" title="爱发电">https://afdian.com/@wdssmq</a></p>
   <p>[AD：<a title="老薛主机" target="_blank" href="https://my.laoxuehost.net/aff.php?aff=294">PHP美国空间</a> 优惠码：15off-xnxf ]</p>
   <p>[AD：<a title="主机云" target="_blank" href="https://my.hostyun.com/page.aspx?c=referral&u=8680">vps-主机云</a>]</p>
   <p>[AD：<a title="Vultr" target="_blank" href="https://www.vultr.com/?ref=7663955">vps-Vultr</a>]</p>
